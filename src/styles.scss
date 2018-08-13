@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~fullcalendar/dist/fullcalendar.css";
+@import "~fullcalendar-scheduler/dist/scheduler.css";
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+#calendar {
+    max-width: 900px;
+    height: 500px;
+    margin: 40px auto;
+}
